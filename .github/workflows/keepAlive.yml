@@ -1,5 +1,8 @@
 name: Keepalive Workflow
 on:
+  push:
+    branches:
+      - master
   schedule:
     - cron: "0 0 * * *"
 permissions:
